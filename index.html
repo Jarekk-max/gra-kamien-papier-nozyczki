@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Kamien-Papier-Nozyczki</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script src="kamienpapiernozyczki.js"></script>
+</head>
+<body>
+    <h1>Gra Kamien-Papier-Nozyczki</h1>
+    <h2>Wybierz 1 symbol:</h2>
+    <div class="symbole">
+        <div class="symbol symbol--kamien"
+         onclick="wybierzSymbol('kamien')"></div>
+        <div class="symbol symbol--papier"
+         onclick="wybierzSymbol('papier')"></div>
+        <div class="symbol symbol--nozyczki"
+         onclick="wybierzSymbol('nozyczki')"></div>
+    </div>
+    <div id="wynik"></div>
+    <div class="symbole symbole--wylosowane">
+        <div id="symbol--uzytkownik" class="symbol">Uzytkownik</div>
+        <div class="symbol symbol--versus">VS</div>
+        <div id="symbol--komputer" class="symbol">Komputer</div>
+    </div>
+</body>
+</html>
